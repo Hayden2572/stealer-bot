@@ -2,10 +2,9 @@
   <img src="https://img.shields.io/badge/DIRHUNTER-STEALER%20MODE-black?style=for-the-badge&logo=linux&logoColor=red" />
 </p>
 
-<h1 align="center">⚡ DIRHUNTER — Aggressive Async Directory Scanner & Telegram Uploader ("STEALER"-Style) ⚡</h1>
+<h1 align="center">⚡ DIRHUNTER — Aggressive Async Directory Scanner & Telegram Uploader ⚡</h1>
 
 DirHunter is a **fast, concurrent, root-level directory hunter** that locks onto a target folder, rips it into a ZIP archive, and launches it straight into your Telegram.  
-The term **“STEALER”** here is purely stylistic — think *brutal automation*, not crime.
 
 ---
 
@@ -50,7 +49,7 @@ All key variables live in the **data section** of the code:
 
 ---
 
-## 🧬 How It Operates (Short & Brutal)
+## 🧬 How It Operates
 
 1. Launches a full-depth async crawl of the filesystem.
 2. When a directory name equals `flag`:
@@ -67,3 +66,17 @@ All key variables live in the **data section** of the code:
 ```bash
 go mod tidy
 go run .
+
+## ⚠️ Legal Notice
+
+Use with extreme caution and responsibility
+
+    🚫 Unauthorized access to computer systems is illegal
+
+    🔒 Obtain proper permissions before scanning any system
+
+    👮 You are solely responsible for your actions
+
+    ✅ Intended for authorized security testing only
+
+If you don't own it - don't scan it
