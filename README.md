@@ -66,6 +66,7 @@ All key variables live in the **data section** of the code:
 ```bash
 go mod tidy
 go run .
+```
 
 ## ⚠️ Legal Notice
 
