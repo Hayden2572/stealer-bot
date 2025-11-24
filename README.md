@@ -71,13 +71,9 @@ go run .
 ## ⚠️ Legal Notice
 
 Use with extreme caution and responsibility
+ - 🚫 Unauthorized access to computer systems is illegal
+ - 🔒 Obtain proper permissions before scanning any system
+ - 👮 You are solely responsible for your actions
+ -  ✅ Intended for authorized security testing only
 
-    🚫 Unauthorized access to computer systems is illegal
-
-    🔒 Obtain proper permissions before scanning any system
-
-    👮 You are solely responsible for your actions
-
-    ✅ Intended for authorized security testing only
-
-If you don't own it - don't scan it
+**If you don't own it - don't scan it**
